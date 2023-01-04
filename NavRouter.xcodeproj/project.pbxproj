@@ -14,7 +14,7 @@
 		5F6C776B2964322600B046BB /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C776A2964322600B046BB /* HomeTabView.swift */; };
 		5F6C776D2964323C00B046BB /* FeedsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C776C2964323C00B046BB /* FeedsTabView.swift */; };
 		5F6C776F2964325600B046BB /* ProfileTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C776E2964325600B046BB /* ProfileTabView.swift */; };
-		5F6C7771296435F100B046BB /* SecondSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C7770296435F100B046BB /* SecondSampleView.swift */; };
+		5F6C7771296435F100B046BB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C7770296435F100B046BB /* SecondView.swift */; };
 		5F6C7773296459D200B046BB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C7772296459D200B046BB /* Router.swift */; };
 		5F6C777529645A6D00B046BB /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C777429645A6D00B046BB /* ThirdView.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +28,7 @@
 		5F6C776A2964322600B046BB /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		5F6C776C2964323C00B046BB /* FeedsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsTabView.swift; sourceTree = "<group>"; };
 		5F6C776E2964325600B046BB /* ProfileTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabView.swift; sourceTree = "<group>"; };
-		5F6C7770296435F100B046BB /* SecondSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSampleView.swift; sourceTree = "<group>"; };
+		5F6C7770296435F100B046BB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		5F6C7772296459D200B046BB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		5F6C777429645A6D00B046BB /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 				5F6C776A2964322600B046BB /* HomeTabView.swift */,
 				5F6C776C2964323C00B046BB /* FeedsTabView.swift */,
 				5F6C776E2964325600B046BB /* ProfileTabView.swift */,
-				5F6C7770296435F100B046BB /* SecondSampleView.swift */,
+				5F6C7770296435F100B046BB /* SecondView.swift */,
 				5F6C777429645A6D00B046BB /* ThirdView.swift */,
 				5F6C7772296459D200B046BB /* Router.swift */,
 			);
@@ -158,7 +158,7 @@
 				5F6C777529645A6D00B046BB /* ThirdView.swift in Sources */,
 				5F6C776B2964322600B046BB /* HomeTabView.swift in Sources */,
 				5F6C776F2964325600B046BB /* ProfileTabView.swift in Sources */,
-				5F6C7771296435F100B046BB /* SecondSampleView.swift in Sources */,
+				5F6C7771296435F100B046BB /* SecondView.swift in Sources */,
 				5F6C7773296459D200B046BB /* Router.swift in Sources */,
 				5F6C775F296431AA00B046BB /* ContentView.swift in Sources */,
 				5F6C776D2964323C00B046BB /* FeedsTabView.swift in Sources */,
