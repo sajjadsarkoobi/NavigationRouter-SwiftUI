@@ -11,6 +11,12 @@
 		5F6C775F296431AA00B046BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C775E296431AA00B046BB /* ContentView.swift */; };
 		5F6C7761296431AC00B046BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C7760296431AC00B046BB /* Assets.xcassets */; };
 		5F6C7764296431AC00B046BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C7763296431AC00B046BB /* Preview Assets.xcassets */; };
+		5F6C776B2964322600B046BB /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C776A2964322600B046BB /* HomeTabView.swift */; };
+		5F6C776D2964323C00B046BB /* FeedsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C776C2964323C00B046BB /* FeedsTabView.swift */; };
+		5F6C776F2964325600B046BB /* ProfileTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C776E2964325600B046BB /* ProfileTabView.swift */; };
+		5F6C7771296435F100B046BB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C7770296435F100B046BB /* SecondView.swift */; };
+		5F6C7773296459D200B046BB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C7772296459D200B046BB /* Router.swift */; };
+		5F6C777529645A6D00B046BB /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C777429645A6D00B046BB /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		5F6C775E296431AA00B046BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F6C7760296431AC00B046BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6C7763296431AC00B046BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F6C776A2964322600B046BB /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		5F6C776C2964323C00B046BB /* FeedsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsTabView.swift; sourceTree = "<group>"; };
+		5F6C776E2964325600B046BB /* ProfileTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabView.swift; sourceTree = "<group>"; };
+		5F6C7770296435F100B046BB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		5F6C7772296459D200B046BB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5F6C777429645A6D00B046BB /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,16 @@
 		5F6C775B296431A900B046BB /* NavRouter */ = {
 			isa = PBXGroup;
 			children = (
-				5F6C775C296431A900B046BB /* NavRouterApp.swift */,
-				5F6C775E296431AA00B046BB /* ContentView.swift */,
 				5F6C7760296431AC00B046BB /* Assets.xcassets */,
 				5F6C7762296431AC00B046BB /* Preview Content */,
+				5F6C775C296431A900B046BB /* NavRouterApp.swift */,
+				5F6C775E296431AA00B046BB /* ContentView.swift */,
+				5F6C776A2964322600B046BB /* HomeTabView.swift */,
+				5F6C776C2964323C00B046BB /* FeedsTabView.swift */,
+				5F6C776E2964325600B046BB /* ProfileTabView.swift */,
+				5F6C7770296435F100B046BB /* SecondView.swift */,
+				5F6C777429645A6D00B046BB /* ThirdView.swift */,
+				5F6C7772296459D200B046BB /* Router.swift */,
 			);
 			path = NavRouter;
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6C777529645A6D00B046BB /* ThirdView.swift in Sources */,
+				5F6C776B2964322600B046BB /* HomeTabView.swift in Sources */,
+				5F6C776F2964325600B046BB /* ProfileTabView.swift in Sources */,
+				5F6C7771296435F100B046BB /* SecondView.swift in Sources */,
+				5F6C7773296459D200B046BB /* Router.swift in Sources */,
 				5F6C775F296431AA00B046BB /* ContentView.swift in Sources */,
+				5F6C776D2964323C00B046BB /* FeedsTabView.swift in Sources */,
 				5F6C775D296431A900B046BB /* NavRouterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
